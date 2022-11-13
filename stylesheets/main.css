@@ -1,0 +1,94 @@
+/*
+  The external stylesheet containing all styles that should stay consistent throughout the website.
+
+  The body of the website should:
+  - have a background color of #fbfbfe
+*/
+body {
+  background-color: #fbfbfe;
+}
+/* 
+  The .nav-link class, used for navigational links, should:
+  - have a display of inline-block, margin of 5px, padding of 10px
+  - font size of 23px, font family of "Georgia, "Times New Roman", Cambria, serif
+  and a font-weight of bold
+  - have a background color of #f1f1f1 and text color of #f24c05 
+*/
+.nav-link {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+
+  font-size: 23px;
+  font-family: Georgia, "Times New Roman", Cambria, serif;
+  font-weight: bold;
+
+  background-color: #f1f1f1;
+  color: #f24c05;
+}
+/* 
+  The nav ul li should have:
+  - a display of inline-block
+  - a margin of 10 pixels
+  - a font-size of 20 pixels
+*/
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+}
+/* 
+  The h1 should be:
+  - aligned to the center
+  - have a font-size of 45 pixels
+  - have the color of #323140
+*/
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #323140;
+}
+/*
+  The h2 should have:
+  - a font-size of 35 pixels
+  - a color of #323140
+*/
+h2 {
+  font-size: 35px;
+  color: #323140;
+}
+/* 
+  The h3 should have:
+  - a font-size of 28 pixels
+  - a color of #f27405
+*/
+h3 {
+  font-size: 28px;
+  color: #f27405;
+}
+/* 
+  The paragraphs should be:
+  - in the font-size of 24 pixels
+  - in the font family of Georgia, "Times New Roman", Cambria, serif
+  - in the color of #323140 
+*/
+p {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Cambria, serif;
+  color: #323140;
+}
+/* 
+  The divs should have:
+  - a background color of #f2f2f2.
+  - a width of auto
+  - a height of 200 pixels
+  - a border-radius of 5 pixels
+  - a padding of 10 on top and bottom, 20 pixels on the right and left. 
+*/
+div {
+  background-color: #f2f2f2;
+  width: auto;
+  height: 200px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
